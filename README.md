@@ -1,4 +1,5 @@
 # Pose Classifier model using Movenet Inference
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 - [Description](#description)
@@ -8,7 +9,7 @@
 - [File Structure](#file-structure)
 
 ## Description
-This model leverages the MoveNet model, a lightweight machine learning model for pose estimation, and TensorFlow Lite, a framework for running machine learning models on edge devices. This model showcases how to perform real-time pose estimation and classification, making it suitable for applications such as fitness tracking, gesture recognition, and more. 
+This model leverages the MoveNet model, a lightweight machine learning model for pose estimation, and TensorFlow Lite, a framework for running machine learning models on edge devices. This model showcases how to perform real-time pose estimation and classification, making it suitable for applications such as fitness tracking, gesture recognition, and more. In this case, we developed two models to classify Push Up and Sit Up poses. Our model can be fed with data from other poses and be used to classify other poses as needed.
 
 ## Architecture
 ![pose_classifier tflite](https://github.com/pdshi/activity-recognition-model/assets/85791158/979760dd-8912-4d55-8272-55ffe4aaeb32)
@@ -43,10 +44,11 @@ Here are the dependencies and libraries needed to run the notebook
 - Scikit-learn
 
 ## File Structure
-- `Push Up Model/`: Directory containing the notebook and outputs for Push Up Classification.
-- `Sit Up Model/`: Directory containing the notebook and outputs for Sit Up Classification.
+- `Push Up Model`: Directory containing the notebook and outputs for Push Up Classification.
+- `Sit Up Model`: Directory containing the notebook and outputs for Sit Up Classification.
+- `Supporting Programs`: Directory containing the supporting programs to compress and augment the dataset.
 
-Each directory consists of:
+Push Up Model and Sit Up Model directory consists of:
 - Notebook for the machine learning model
 - Base MoveNet Thunder model for pose estimation
 - Output classification model in tflite format
