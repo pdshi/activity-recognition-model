@@ -9,7 +9,7 @@
 - [File Structure](#file-structure)
 
 ## Description
-This model leverages the MoveNet model, a lightweight machine learning model for pose estimation, and TensorFlow Lite, a framework for running machine learning models on edge devices. This model showcases how to perform real-time pose estimation and classification, making it suitable for applications such as fitness tracking, gesture recognition, and more. In this case, we developed two models to classify Push Up and Sit Up poses. Our model can be fed with data from other poses and be used to classify other poses as needed.
+This model leverages the MoveNet model, a lightweight machine learning model for pose estimation, and TensorFlow Lite, a framework for running machine learning models on edge devices. This model showcases how to perform real-time pose estimation and classification, making it suitable for applications such as fitness tracking, gesture recognition, and more. This model can be fed with data from other poses and be used to classify other poses as needed.
 
 ## Architecture
 ![pose_classifier tflite](https://github.com/pdshi/activity-recognition-model/assets/85791158/979760dd-8912-4d55-8272-55ffe4aaeb32)
