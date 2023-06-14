@@ -57,5 +57,5 @@ Push Up Model and Sit Up Model directory consists of:
 - Saved best weights
 
 The dataset used for the models can be found here
-Push Up Dataset: https://drive.google.com/drive/folders/1DmlWEiONg682cgAhCEg5U3__oE8Wng4i?usp=sharing
-Sit Up Dataset: https://drive.google.com/drive/folders/1qcyGe0QFFDivjcH310Yqgcq72tnsAYrR?usp=sharing
+- Push Up Dataset: https://drive.google.com/drive/folders/1DmlWEiONg682cgAhCEg5U3__oE8Wng4i?usp=sharing
+- Sit Up Dataset: https://drive.google.com/drive/folders/1qcyGe0QFFDivjcH310Yqgcq72tnsAYrR?usp=sharing
